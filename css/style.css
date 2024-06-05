@@ -1,0 +1,214 @@
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    body{
+        font-size: 16px;
+        color: black;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    header{
+        background-color: rgb(37, 144, 232);
+        height: 90px;
+        display: flex;
+        position: relative;
+    }
+    header .header-search,
+    header .header-icon {
+        padding: 0 15px;
+    }
+
+    .header-logo,.header-search,.header-icon{
+        height: 100%;
+        color: #fff;
+        display: flex;
+        height: 90px;
+        line-height: 100px;
+    }
+    header .header-logo{
+        width: 25%;
+        align-items: center;
+        margin-left: 5px;
+        position: absolute;
+        left: 10px;
+    
+    }
+    header .header-logo .fa-check{
+        line-height: 100px;
+        font-size: 50px !important;
+        color: RGBA( 255, 255, 255, 1 );
+        border-radius: none;
+        margin-bottom: 10px;
+        margin-right: 5px;
+    }
+    header .header-logo  p{
+        font-size: 40px;
+        font-weight: normal;
+        color: white;
+        
+    }
+    header .header-logo  h1{
+        font-size: 40px;
+        font-weight: 500;
+        color: white;
+        
+    }
+    header .header-logo .fa-bars-staggered{
+        margin-left: 50px;
+        font-size: 30px;
+        color: white;
+        padding: none;
+    }
+
+    header .header-search{
+            width: 50rem;
+        display: flex;
+        margin-left: 20px;
+
+    }
+    header .header-search .input-header-search{
+    width: 100%;
+    padding:  14px 0px;
+    margin: 20px;   
+    position: relative;
+    line-height: 50%;
+    }
+    header .header-search .input-header-search{
+    align-items: center;
+
+    }
+
+    ::placeholder {
+        padding: 5px;
+    }
+
+    header .header-search .fa-magnifying-glass{
+        position: absolute;
+        font-size: 20px; 
+        z-index: 1;
+        left: -1;
+        line-height: 90px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color:gray;
+        
+    }
+    header .header-icon{
+        font-size:30px;
+        line-height: 90px;
+        align-items: center;
+        position: absolute;
+        letter-spacing: 15px;
+        right: 40px;
+    }
+    .header-icon img{
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+
+    }
+    .header-icon .fa-bell,.header-icon .fa-envelope{
+        font-size: 25px;
+        color: white;
+        align-items: center;
+    }
+    nav{
+        width: 25%;
+        float: left;
+        background-color: #0000000b;
+        padding: 10px;
+        height: 100vh;
+    }
+    nav .nav-title p{
+        color: rgb(37, 144, 232);
+    }
+    nav ul{
+        list-style-type: none; 
+        padding: 0;
+        margin: 0;
+    }
+    nav ul li {
+    padding: 10px 20px;
+    margin-bottom: 10px; 
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+    nav ul li:hover .sub-nav {
+        display: block;
+    
+    }
+    nav ul li i{
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    li i.fa-chevron-down {
+       margin-left: auto;
+    }
+    li:hover i.fa-chevron-down {
+        transform: rotate(90deg); 
+        transition: 0.5s ease-in; 
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: black;
+        margin-right: 5px;
+        
+    }
+    nav ul li a:hover {
+        text-decoration: none;
+        color: rgb(63, 166, 230);
+        margin-right: 5px;
+        
+    }
+
+    .sub-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 5;
+        width: 100%;
+    
+    }
+
+    .sub-nav li {
+        width: 100%;
+    }
+
+    .sub-nav li a {
+        padding: 8px 15px;
+        color: #333;
+        display: block;
+        text-decoration: none;
+    }
+
+    .sub-nav li a:hover {
+        color: rgb(63, 166, 230);
+    }
+
+
+    main{
+        float: right;
+        height: 100vh;
+        padding: 20px 40px;
+        background-color:  #dbd9d98e;
+    }
+    
+    main table {
+        background-color: white;
+        box-shadow: 0px 0px 10px gray;
+    }
+
+
+    @media (min-width: 768px) {
+        .header-search {
+            justify-content: flex-start;
+        }
+
+        .header-icon {
+            justify-content: flex-end;
+        }
+    }
