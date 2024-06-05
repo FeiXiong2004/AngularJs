@@ -1,0 +1,88 @@
+{
+  "products": [
+    {
+      "id": "3f5b",
+      "name": "asd",
+      "price": 1,
+      "categoryId": "c4db"
+    }
+  ],
+  "tivi": [
+    {
+      "id": "1",
+      "ten": "Sony aa",
+      "hang": "Sony",
+      "kichThuoc": "1inch",
+      "gia": 3000000
+    },
+    {
+      "id": "2",
+      "ten": "Sony aa",
+      "hang": "Sony",
+      "kichThuoc": "1inch",
+      "gia": 3000000
+    },
+    {
+      "id": "3",
+      "ten": "Sony đâs",
+      "hang": "Panasonic",
+      "kichThuoc": "1inch",
+      "gia": 3000000
+    },
+    {
+      "id": "21",
+      "ten": "adasd",
+      "hang": "Sony",
+      "kichThuoc": "12",
+      "gia": 312321
+    }
+  ],
+  "category": [
+    {
+      "id": "c4db",
+      "name": "Mobile"
+    }
+  ],
+  "quanao": [
+    {
+      "ma_sp": "Sp001",
+      "ten": "ao",
+      "loai": "Đồ nữ",
+      "gia": 30000,
+      "id": "1"
+    }
+  ],
+  "clothes": [
+    {
+      "id": "1",
+      "ten": "ao phong 132",
+      "loai": "Đồ nam",
+      "gia": 30000
+    },
+    {
+      "id": "2",
+      "ma_sp": "dss",
+      "ten": "áo đầm ABC",
+      "loai": "Đồ nữ",
+      "gia": 11
+    },
+    {
+      "id": "4683",
+      "ten": "Áo phông trắng",
+      "loai": "Đồ nam",
+      "gia": 30000
+    },
+    {
+      "id": "f727",
+      "ten": "da",
+      "loai": "Đồ nam",
+      "gia": 12
+    },
+    {
+      "id": "1482",
+      "ten": "dasda",
+      "loai": "Đồ nam",
+      "gia": 23
+    }
+  ]
+}
